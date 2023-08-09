@@ -1,0 +1,17 @@
+
+<local:MyCard Title="添加 Mod" CanSwap="True" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="1. 切换到启动页面；" />
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="2. 将需要添加的 Mod 拖拽至 PCL2 窗口内；" />
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="3. 确认安装。" />
+        <local:MyHint Margin="0,0,0,0" IsWarn="False" Text="只有 1.20.1 的 Fabric Mod可以正常使用，安装错误的 Mod 会导致游戏崩溃。" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="管理 Mod" CanSwap="True" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="在 Mods 文件夹中管理模组" />
+        <local:MyButton Margin="0,4,0,10" Width="200" Height="35"
+                    Text="打开 Mods 文件夹" EventType="打开文件" EventData="{path}\.minecraft\mods" ToolTip="PCL 的日志文件就在 PCL 文件夹内，且名为 Log1.txt" />
+        <local:MyHint Margin="0,0,0,0" IsWarn="False" Text="只有 1.20.1 的 Fabric Mod可以正常使用，安装错误的 Mod 会导致游戏崩溃。" />
+    </StackPanel>
+</local:MyCard>

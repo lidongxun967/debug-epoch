@@ -1,0 +1,10 @@
+
+<local:MyCard Title="Issues">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" LineHeight="17"
+                    Text="你可以在 GitHub 为 Debug-Epoch 提交反馈。反馈内容主要包括：Bug 反馈、优化建议与新功能提案。&#xa;点击下方按钮即可进入反馈页面。"/>
+        <local:MyListItem Margin="0,0,-5,0" 
+                    Logo="pack://application:,,,/images/Blocks/CommandBlock.png" SnapsToDevicePixels="True" Title="反馈页面" Info="提交反馈，或者查看已有反馈；若无法访问，请使用加速器或 VPN" Type="Clickable" PaddingRight="4"
+                    EventType="打开网页" EventData="https://github.com/lidongxun967/Debug-Epoch/issues" />
+    </StackPanel>
+</local:MyCard>

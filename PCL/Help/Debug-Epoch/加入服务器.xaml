@@ -1,0 +1,16 @@
+<local:MyCard Title="如何加入服务器" CanSwap="True" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	<TextBlock Margin="0,0,0,4" TextWrapping="Wrap" Text="刷新主页可以更新过时的服务器IP" />
+	<local:MyButton Margin="0,5,0,6" Width="250" Height="35"
+                    Text="刷新主页" EventType="刷新主页"/>
+ </StackPanel>
+</local:MyCard>
+
+
+
+<local:MyCard Title="仍然报错？" Margin="0,0,0,15">
+	<StackPanel Margin="25,40,23,15">
+	        <local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="在QQ群中反馈" EventType="打开网页" EventData="https://qm.qq.com/cgi-bin/qm/qr?k=13yHibwci9VX32G12WBqNBLuSzz-cWK-" />
+	</StackPanel>
+</local:MyCard>

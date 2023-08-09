@@ -1,0 +1,6 @@
+{
+    "Title": "管理 Mod",
+    "Description": "管理其它 Mod 的方法",
+    "Types": ["Debug-Epoch"],
+    "Logo":"pack://application:,,,/images/Blocks/Fabric.png"
+}

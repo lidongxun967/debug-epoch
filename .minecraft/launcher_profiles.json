@@ -1,0 +1,28 @@
+{
+  "profiles": {
+    "PCL": {
+      "icon": "Grass",
+      "name": "PCL",
+      "lastVersionId": "latest-release",
+      "type": "latest-release",
+      "lastUsed": "2023-08-09T11:29:30+08:00"
+    }
+  },
+  "selectedProfile": "PCL",
+  "clientToken": "795ca64e2c334d509eb48652619ec245",
+  "authenticationDatabase": {
+    "00000111112222233333444445555566": {
+      "accessToken": "eyJraWQiOiJhYzg0YSIsImFsZyI6IkhTMjU2In0.eyJ4dWlkIjoiMjUzNTQyMTAyNjg2OTg4MiIsImFnZyI6IkFkdWx0Iiwic3ViIjoiNDgwYTZjMWYtMDljOC00ODQ2LTgzYjgtMGEwMDViYTU4NDY1IiwiYXV0aCI6IlhCT1giLCJucyI6ImRlZmF1bHQiLCJyb2xlcyI6W10sImlzcyI6ImF1dGhlbnRpY2F0aW9uIiwiZmxhZ3MiOlsidHdvZmFjdG9yYXV0aCIsIm9yZGVyc18yMDIyIl0sInBsYXRmb3JtIjoiVU5LTk9XTiIsInl1aWQiOiJhZTlmM2EyZmY3ZjgwMzYwNzI3NTQxNzc3MDRiZTM5MSIsIm5iZiI6MTY5MTU5Mzg4MCwiZXhwIjoxNjkxNjgwMjgwLCJpYXQiOjE2OTE1OTM4ODB9.MnHIBDw0Q82ynthTDkG4_BuivjCsXFn7Uu6t3zP-UpY",
+      "username": "LDX2010",
+      "profiles": {
+        "66666555554444433333222221111100": {
+          "displayName": "LDX2010"
+        }
+      }
+    }
+  },
+  "selectedUser": {
+    "account": "00000111112222233333444445555566",
+    "profile": "66666555554444433333222221111100"
+  }
+}

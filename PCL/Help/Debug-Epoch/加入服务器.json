@@ -1,0 +1,6 @@
+{
+    "Title": "连接到服务器",
+    "Description": "引导您加入游戏！",
+    "Types": ["Debug-Epoch"],
+    "Logo":"pack://application:,,,/images/Blocks/CommandBlock.png"
+}
