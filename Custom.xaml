@@ -2,6 +2,8 @@
     <StackPanel Margin="25,40,23,15">
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <local:MyButton Margin="0,0,10,0" Width="130" Height="35"
+                    Text="绍兴主线" EventType="启动游戏" EventData="RUN-For-1.20.1|cn-sx-bgp-1.openfrp.top:40112" />
+            <local:MyButton Margin="0,0,10,0" Width="130" Height="35"
                     Text="义乌主线" EventType="启动游戏" EventData="RUN-For-1.20.1|cn-yw-plc-1.openfrp.top:18824" />
             <local:MyButton Margin="0,0,10,0" Width="130" Height="35"
                     Text="十堰副线" EventType="启动游戏" EventData="RUN-For-1.20.1|cn-sy-dx-2.openfrp.top:21275" />
