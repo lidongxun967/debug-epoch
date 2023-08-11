@@ -1,20 +1,19 @@
-<local:MyCard Title="启动游戏" Margin="0,0,0,15">
+﻿<local:MyCard Title="启动游戏" Margin="0,0,0,15" CanSwap="True">
     <StackPanel Margin="25,40,23,15">
-    <local:MyButton Margin="0,5,0,6" Width="250" Height="35"
-                    Text="优化内存占用" EventType="内存优化"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="选择线路" />
-            <local:MyButton Margin="0,4,0,10" Width="250" Height="35"
-                    Text="启动游戏 义乌主线" EventType="启动游戏" EventData="RUN-For-1.20.1|cn-yw-plc-1.openfrp.top:18824" />
-            <local:MyButton Margin="0,4,0,10" Width="250" Height="35"
-                    Text="启动游戏 十堰副线" EventType="启动游戏" EventData="RUN-For-1.20.1|cn-sy-dx-2.openfrp.top:21275" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyButton Margin="0,0,10,0" Width="130" Height="35"
+                    Text="义乌主线" EventType="启动游戏" EventData="RUN-For-1.20.1|cn-yw-plc-1.openfrp.top:18824" />
+            <local:MyButton Margin="0,0,10,0" Width="130" Height="35"
+                    Text="十堰副线" EventType="启动游戏" EventData="RUN-For-1.20.1|cn-sy-dx-2.openfrp.top:21275" />
+        </StackPanel>
     </StackPanel>
 </local:MyCard>
-<local:MyCard Title="一起交流！" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+
+<local:MyCard Title="一起交流！" Margin="0,0,0,15" CanSwap="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="加入我们的QQ群聊" />
+                    Text="加入我们的 QQ 群聊" />
         <local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                    Text="加入QQ群" EventType="打开网页" EventData="https://qm.qq.com/cgi-bin/qm/qr?k=13yHibwci9VX32G12WBqNBLuSzz-cWK-" />
+                    Text="加入 QQ 群" EventType="打开网页" EventData="https://qm.qq.com/cgi-bin/qm/qr?k=13yHibwci9VX32G12WBqNBLuSzz-cWK-" />
     </StackPanel>
 </local:MyCard>
