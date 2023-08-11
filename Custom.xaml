@@ -6,10 +6,10 @@
                 <ColumnDefinition Width="1.6*" /> <!-- 这个按钮的宽度是其他按钮的 1.6 倍 -->
                 <ColumnDefinition Width="1*" /> <!-- 如果不打 *，则会占用固定的宽度 -->
             </Grid.ColumnDefinitions>
-            <local:MyButton Grid.Column="1" Margin="0,0,10,0" Height="35"
-                    Text="绍兴主线" EventType="启动游戏" EventData="RUN-For-1.20.1|cn-sx-bgp-1.openfrp.top:40112" />
             <local:MyButton Grid.Column="0" Margin="0,0,10,0" Height="35"
                     Text="义乌主线" EventType="启动游戏" EventData="RUN-For-1.20.1|cn-yw-plc-1.openfrp.top:18824" />
+            <local:MyButton Grid.Column="1" Margin="0,0,10,0" Height="35"
+                    Text="绍兴主线" EventType="启动游戏" EventData="RUN-For-1.20.1|cn-sx-bgp-1.openfrp.top:40112" />
             <local:MyButton Grid.Column="2" Margin="0,0,10,0" Height="35"
                     Text="十堰副线" EventType="启动游戏" EventData="RUN-For-1.20.1|cn-sy-dx-2.openfrp.top:21275" />
         </grid>
