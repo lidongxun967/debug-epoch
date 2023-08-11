@@ -1,6 +1,6 @@
 ﻿<local:MyCard Title="启动游戏" Margin="0,0,0,15" CanSwap="True">
     <StackPanel Margin="25,40,23,15">
-        <grid>
+        <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*" />
                 <ColumnDefinition Width="1.6*" /> <!-- 这个按钮的宽度是其他按钮的 1.6 倍 -->
@@ -12,7 +12,7 @@
                     Text="绍兴主线" EventType="启动游戏" EventData="RUN-For-1.20.1|cn-sx-bgp-1.openfrp.top:40112" />
             <local:MyButton Grid.Column="2" Margin="0,0,10,0" Height="35"
                     Text="十堰副线" EventType="启动游戏" EventData="RUN-For-1.20.1|cn-sy-dx-2.openfrp.top:21275" />
-        </grid>
+        </Grid>
     </StackPanel>
 </local:MyCard>
 
